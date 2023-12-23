@@ -1,0 +1,13 @@
+#.gitignore
+
+# Node.js
+node_modules/
+
+# Build directory
+dist/
+
+# Archivos locales o secretos (ajusta según sea necesario)
+.env
+
+# GitHub Pages
+.nojekyll
