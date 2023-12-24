@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Agrega este bloque de estilos en tu archivo de estilos (tailwind.css o tu propio archivo CSS) */
+
+/* Estilos específicos para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    .bg-gray-200 {
+      width: 100%; /* Ajusta el ancho del formulario al 100% en dispositivos móviles */
+      margin: 0 auto; /* Centra el formulario en la pantalla */
+    }
+  
+    /* Ajusta el ancho de los campos de entrada y el área de texto */
+    .bg-gray-200 input,
+    .bg-gray-200 textarea {
+      width: 100%;
+    }
+  
+    /* Agrega espacio entre los elementos del formulario en dispositivos móviles */
+    .bg-gray-200 input,
+    .bg-gray-200 textarea,
+    .bg-gray-200 button {
+      margin-bottom: 1rem;
+    }
+  }
